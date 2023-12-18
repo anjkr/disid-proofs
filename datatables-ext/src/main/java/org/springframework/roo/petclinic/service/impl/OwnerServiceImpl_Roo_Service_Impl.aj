@@ -208,21 +208,13 @@ privileged aspect OwnerServiceImpl_Roo_Service_Impl {
         return getOwnerRepository().findOneDetached(id);
     }
     
-    /**
-     * TODO Auto-generated method documentation
-     * 
-     * @param ids
-     * @return List
-     */
+
     public List<Owner> OwnerServiceImpl.findAll(Iterable<Long> ids) {
+        //todo
         return getOwnerRepository().findAll(ids);
     }
     
-    /**
-     * TODO Auto-generated method documentation
-     * 
-     * @return List
-     */
+  
     public List<Owner> OwnerServiceImpl.findAll() {
         return getOwnerRepository().findAll();
     }
